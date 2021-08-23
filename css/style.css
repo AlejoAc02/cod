@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/*variables css*/
+:root{
+    --colorOrange: #FF6A00;
+    --txtBtn: 25px;
+    --colorTxtBtn: white;
+
+    --fontSizeStrong: 60px;
+    --fontSizeP: 30px;
+    --colorP: white;
+}
+/* estilos home*/
+.home{
+    background-image: url(../img/background_inicio.jpg) ;
+    background-size: cover;
+}
+
+.LogoBlackOps{
+    padding: 5% 2%;
+}
+
+
+.links{
+    margin: 0 2%;
+
+}
+
+.itemsLinks li{
+    margin: 3% 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.itemsLinks a:hover{
+    border-bottom: 4px solid #FF6A00;
+    transition: all 0.2s ease-out;   
+}
+
+.itemsLinks a{
+    text-decoration: none;
+    color: white;
+}
+
+.items{
+    display: flex;
+    padding: 0 3%;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.item1{
+    width: 25%;
+    display: flex;
+   align-items: center;
+
+
+}
+.item2{
+    width: 50%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+.item3{
+    width: 25%;
+    display: flex;
+   align-items: center;
+   padding-top: 6%;
+
+}
+
+.item1 img{
+    margin: 0 auto;
+}
+
+.item2 img{
+    width: 50%;
+    margin: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.item2 a{
+    margin-top: 15%;
+}
+
+.item3 a{
+    background-color: var(--colorOrange);
+    color: var(--colorTxtBtn);
+    font-size: var(--txtBtn );
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding: 5% 15%;
+    margin: 0 auto;
+}
+
+.item3 a:hover{
+    background-color: white;
+    color: var(--colorOrange);
+    transition: all 0.4s ease-out; 
+}
+
+/*estilos campaña*/
+.campaña{
+    display: flex;
+    background-image: url(../img/background_campaña.jpg) ;
+    background-size: cover;
+    padding: 10% 5% 0 5%;
+}
+
+.textoCampaña{
+    width: 40%;
+    font-family: var(--fontFamily);
+}
+
+.textoCampaña strong{
+    color: var(--colorOrange);
+    font-size: var(--fontSizeStrong);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textoCampaña p{
+    font-size: var(--fontSizeP);
+    color: var(--colorP);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 5% 0 10% 0;
+}
+
+.textoCampaña a{
+    background-color: var(--colorOrange);
+    color: var(--colorTxtBtn);
+    font-size: var(--txtBtn );
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+    padding: 3% 7%;
+}
+
+.textoCampaña a:hover{
+    background-color: white;
+    color: var(--colorOrange);
+    transition: all 0.4s ease-out; 
+}
+
+.parallaxCampaña{
+    width: 60%;
+}
+
+.parallaxCampaña img{
+    margin: 0 20%;
+    width: 60%;
+    margin-top: 10%;
+}
+
+/*estilos multijugador*/
+
+.multijugador{
+    display: flex;
+    background-image: url(../img/background_multi.png);
+    background-size: cover;
+    padding: 10% 5% 0 5%;
+}
+
+.parallaxMulti{
+    width: 60%;
+}
+
+.textoMultijugador{
+    width: 40%;
+}
+
+.textoMultijugador strong{
+    color: var(--colorOrange);
+    font-size: var(--fontSizeStrong);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textoMultijugador p{
+    color: var(--colorP);
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10% 0;
+}
+
+.parallaxMulti img{
+    margin-top: 27%;
+    width: 65%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/*estilos zombies*/
+
+.zombies{
+    display: flex;
+    background-image: url(../img/background_zombies.jpg);
+    background-size: cover;
+    padding: 10% 5% 0 5%;
+}
+
+.parallaxZombie{
+    width: 50%;
+}
+
+.textoZombies{
+    width: 50%;
+    
+}
+
+.textoZombies strong{
+    color: var(--colorOrange);
+    font-size: var(--fontSizeStrong);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textoZombies p{
+    color: var(--colorP);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin: 10% 0 6% 0;
+}
+
+.textoZombies a{
+    background-color: var(--colorOrange);
+    color: var(--colorTxtBtn);
+    font-size: var(--txtBtn );
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-top: 5%;
+    padding: 2% 7%;
+}
+
+.textoZombies a:hover{
+    background-color: white;
+    color: var(--colorOrange);
+    transition: all 0.4s ease-out; 
+}
+
+.parallaxZombies img{
+    margin: 30% 20% 0 20%;
+    width: 120%;
+}
+
+/*estilos survival*/
+
+.survival{
+    display: flex;
+    background-image: url(../img/background_survival.jpg);
+    background-size: cover;
+    padding: 10% 5% 0 5%;
+}
+
+.parallaxSurvival{
+    width: 50%;
+}
+
+.textoSurvival{
+    width: 50%;
+    
+}
+
+.textoSurvival strong{
+    color: var(--colorOrange);
+    font-size: var(--fontSizeStrong);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.textoSurvival p{
+    color: var(--colorP);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    margin: 10% 0 6% 0;
+}
+
+.parallaxSurvival img{
+   width: 80%;
+   margin: 30% 5% 0 5%;
+   -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+/*estilos footer*/
+
+.footer{
+    background-color: black;
+    display: flex; 
+    padding: 1.5% 2%;
+}
+
+.activisionLogos{
+    width: 70%;
+}
+
+.socialMedia{
+    width: 30%;
+}
+
+.activisionLogos img{
+    width: 16%;
+    margin: 0 2%;
+}
+
+.socialMedia img{
+    padding: 0 8%;
+}
+
+/*responsive ipad 768 x 1080*/
+
+@media(max-width : 768px) {
+
+    /*home*/
+
+    .home{
+        background-size: contain;
+        background-repeat: round;
+    }
+
+    .LogoBlackOps {
+        padding: 2% 4%;
+    }
+
+    .links {
+        margin: 0 4%;
+    }
+
+    .links a{
+        font-size: 20px;
+    }
+
+    /*campaña*/
+
+    .campaña{
+        padding: 5%;
+    }
+    
+    .textoCampaña strong{
+        font-size: 35px;
+    }
+
+    .textoCampaña p {
+        font-size: 20px;
+    }
+
+    .textoCampaña a{
+        font-size: 20px;
+    }
+
+    .parallaxCampaña img {
+        width: 67%;
+    }
+
+    /*multijugador*/
+
+
+    .textoMultijugador strong{
+        font-size: 35px;
+    }
+
+    .textoMultijugador p{
+        font-size: 20px;
+    }
+
+    .parallaxMulti img{
+        width: 90%;
+        margin-top: 28%;
+    }
+
+    /*zombies*/
+
+    .textoZombies strong{
+        font-size: 35px ;
+    }
+
+    .textoZombies p{
+        font-size: 20px;
+        margin: 5% 0 10% 0;
+    }
+
+    .textoZombies a{
+        font-size: 20px;
+    }
+
+    .parallaxZombies img{
+        margin: 30% 10% 0 5%;
+        width: 100%;
+    }
+
+    /*survival*/
+
+    .textoSurvival strong{
+        font-size: 35px;
+    }
+
+    .textoSurvival p{
+        font-size: 20px;
+        margin: 6% 0;
+    }
+
+    .parallaxSurvival img{
+        margin: 35% 5% 0 5%;;
+    }
+
+    /*footer*/
+
+    .socialMedia img{
+        width: 11%;
+    }  
+
+    .socialMedia img{
+        padding: 0 4%;
+    }
+    
+}
+
+/*responsive ipad pro 10.5 834 x 1112*/
+
+@media(max-width: 834px) {
+        /*home*/
+
+        .home{
+            background-size: contain;
+            background-repeat: round;
+        }
+    
+        .LogoBlackOps {
+            padding: 2% 4%;
+        }
+    
+        .links {
+            margin: 0 4%;
+        }
+    
+        .links a{
+            font-size: 20px;
+        }
+    
+        /*campaña*/
+    
+        .campaña{
+            padding: 5%;
+        }
+        
+        .textoCampaña strong{
+            font-size: 35px;
+        }
+    
+        .textoCampaña p {
+            font-size: 20px;
+            margin: 10% 0;
+        }
+    
+        .textoCampaña a{
+            font-size: 20px;
+        }
+    
+        .parallaxCampaña img {
+            width: 67%;
+        }
+    
+        /*multijugador*/
+    
+        .textoMultijugador strong{
+            font-size: 35px;
+        }
+    
+        .textoMultijugador p{
+            font-size: 20px;
+        }
+    
+        .parallaxMulti img{
+            width: 90%;
+        }
+    
+        /*zombies*/
+    
+        .textoZombies strong{
+            font-size: 35px ;
+        }
+    
+        .textoZombies p{
+            font-size: 20px;
+            margin: 5% 0 10% 0;
+        }
+    
+        .textoZombies a{
+            font-size: 20px;
+        }
+    
+        .parallaxZombies img{
+            margin: 30% 10% 0 5%;
+            width: 100%;
+        }
+    
+        /*survival*/
+    
+        .textoSurvival strong{
+            font-size: 35px;
+        }
+    
+        .textoSurvival p{
+            font-size: 20px;
+            margin: 6% 0;
+        }
+    
+        .parallaxSurvival img{
+            margin: 35% 5% 0 5%;;
+        }
+    
+        /*footer*/
+    
+        .socialMedia img{
+            width: 11%;
+        } 
+
+        .socialMedia img{
+            padding: 0 4%;
+        }
+        
+}
+
+/*responsive ipad pro 12.9 1024 x 1366*/
+
+@media(max-width: 1024px) {
+    /*home*/
+
+    .home{
+        background-size: contain;
+        background-repeat: round;
+    }
+
+    .LogoBlackOps {
+        padding: 2% 4%;
+    }
+
+    .links {
+        margin: 0 4%;
+    }
+
+    .links a{
+        font-size: 25px;
+    }
+
+    /*campaña*/
+
+    .campaña{
+        padding: 5%;
+    }
+    
+    .textoCampaña strong{
+        font-size: 40px;
+    }
+
+    .textoCampaña p {
+        font-size: 25px;
+        margin: 10% 0;
+    }
+
+    .textoCampaña a{
+        font-size: 20px;
+    }
+
+    .parallaxCampaña img {
+        width: 67%;
+        margin-top: 50%;
+    }
+
+    /*multijugador*/
+
+    .textoMultijugador strong{
+        font-size: 40px;
+    }
+
+    .textoMultijugador p{
+        font-size: 20px;
+    }
+
+    .parallaxMulti img{
+        width: 90%;
+    }
+
+    /*zombies*/
+
+    .textoZombies strong{
+        font-size: 40px ;
+    }
+
+    .textoZombies p{
+        font-size: 20px;
+        margin: 5% 0 10% 0;
+    }
+
+    .textoZombies a{
+        font-size: 20px;
+    }
+
+    .parallaxZombies img{
+        margin: 30% 10% 0 5%;
+        width: 100%;
+    }
+
+    /*survival*/
+
+    .textoSurvival strong{
+        font-size: 40px;
+    }
+
+    .textoSurvival p{
+        font-size: 25px;
+        margin: 6% 0;
+    }
+
+    .parallaxSurvival img{
+        margin: 79% 5% 0 5%;;
+    }
+
+    /*footer*/
+
+    .socialMedia img{
+        width: 10%;
+    } 
+
+    .socialMedia img{
+        padding: 0 4%;
+    }
+    
+}
